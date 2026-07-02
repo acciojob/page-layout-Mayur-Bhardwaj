@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- <button id="btn">Click Me</button>
+
+  <script>
+    let button = document.getElementById("btn");
+    button.addEventListener("click", hello);
+    function hello(){
+      console.log("Clicked");
+    } -->
+      <!-- Now we set the red color after click on button the background color will be changed -->
+      <button>Click Me</button>
+
+  <script>
+        document.body.style.backgroundColor = "red";
+    let button = document.querySelector("button");
+    button.addEventListener("click", hello);
+    function hello(){
+      console.log("Clicked");
+          document.body.style.backgroundColor = "cyan";
+          button.innerText = "Save Me";
+
+    }
+    // Now after click on button the background color will change.
+  </script>
+</body>
+</html>

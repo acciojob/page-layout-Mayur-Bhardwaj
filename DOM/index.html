@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM</title>
+</head>
+<body>
+  <button>0</button>
+  <script>
+
+    let btn = document.querySelector("button");
+    btn.addEventListener("click", update);
+    function update(){
+      let v = +btn.innerText; // convert into number
+      btn.innerText = v+1;
+    }
+    // The reset is created because if we click on anywhere except btn the value of btn os reset and set to 0.
+    // suppose we click on btn 5 times then click anywhere on screen then the value of btn is reset.
+
+    btn.addEventListener("blur", reset);
+    function reset(){
+      btn.innerText = 0;
+    }
+</script>
+</body>
+</html>

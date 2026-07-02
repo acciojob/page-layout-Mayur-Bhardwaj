@@ -1,0 +1,280 @@
+1. Vowel or Consonant
+
+Input a character.
+Use switch-case to check whether it's a vowel or consonant.
+
+2. Basic Calculator
+
+Input two numbers and an operator (+ - * /).
+Use switch-case to perform the operation.
+
+3. Grade System
+
+Input marks.
+Use switch-case to print grades: A, B, C, D, F.
+
+4. Month Name
+
+Input a number (1–12).
+Print the month name using switch-case.
+
+✅ Intermediate Level Questions
+
+5. Menu-Driven Program
+
+Show a menu:
+
+1. Add
+2. Subtract
+3. Multiply
+4. Divide
+
+
+Based on user input, perform that operation.
+
+6. Check Even or Odd
+
+Input a number.
+Use switch-case with num % 2 to print even or odd.
+
+7. Traffic Light System
+
+Input: "red", "yellow", "green".
+Print action: STOP / READY / GO.
+
+8. Electricity Bill Calculation
+
+Based on units:
+
+0–100 → 5 ₹/unit
+101–200 → 7 ₹/unit
+201–300 → 10 ₹/unit
+300+ → 12 ₹/unit
+Use switch-case.
+
+9. Find Number of Days in a Month
+
+Input month number.
+Use switch-case to print days (28/30/31).
+
+✅ Advanced Level Questions
+
+10. Currency Converter
+
+Input amount and currency code (USD, EUR, INR).
+Convert using switch-case.
+
+11. Movie Ticket Price Based on Age Group
+
+Child, Adult, Senior categories.
+Price changes based on switch-case.
+
+12. Restaurant Billing System
+Menu items with prices.
+Choose item number → Add price → Show bill.
+
+13. Switch-case inside switch-case
+
+Example:
+Choose language
+Inside that, choose greeting
+Print greeting in selected language.
+
+14. Simple Login System
+
+Input "admin", "user", "guest".
+Use switch-case to give access levels.
+
+
+
+====================================================================================================
+
+<!-- If Else -->
+
+1. Check Even or Odd
+
+Input a number and check if it's even or odd.
+
+2. Find the Largest of Two Numbers
+
+Input two numbers and print which one is greater.
+
+3. Positive, Negative, or Zero
+
+Check whether a number is positive, negative, or zero.
+
+4. Age Eligibility
+
+Check if a person is eligible to vote (age >= 18).
+
+5. Check Divisible by 5 and 11
+
+Given a number, check if it is divisible by both 5 and 11.
+
+6. Largest of Three Numbers
+
+Take three numbers and print the largest number.
+
+7. Leap Year Checker
+
+Input a year and print whether it's a leap year or not.
+
+8. Character Uppercase or Lowercase
+
+Check if a character is uppercase or lowercase.
+
+9. Check Vowel or Consonant
+
+Input a character and check whether it is a vowel or consonant.
+
+10. Simple Calculator
+
+Input 2 numbers and an operator (+ - * /) and perform calculation using if-else.
+
+✅ INTERMEDIATE LEVEL IF–ELSE QUESTIONS
+11. Electricity Bill Calculation
+
+Based on consumption:
+Up to 100 units → 5 ₹/unit
+101–200 units → 7 ₹/unit
+Above 200 units → 10 ₹/unit
+
+12. Salary Calculation
+
+Input basic salary, calculate:
+HRA = 20%
+DA = 40%
+
+Gross salary = basic + HRA + DA
+Apply extra bonus if salary < 10000.
+
+13. Grade Calculation
+
+Input marks and print grade:
+
+90–100 → A
+75–89 → B
+50–74 → C
+35–49 → D
+Below 35 → Fail
+
+14. Triangle Type
+
+Input three sides:
+
+If all equal → Equilateral
+If any two equal → Isosceles
+If all different → Scalene
+
+15. Check if Number Is a Multiple of 3 OR 5
+
+Print message based on conditions.
+
+16. Login System
+
+Input username and password.
+If both match → Login Successful
+Else → Login Failed
+
+17. Age Group Classification
+
+Age:
+
+0–12 → Child
+13–19 → Teen
+20–59 → Adult
+60+ → Senior
+
+18. Temperature Message
+
+Temp < 0 → Freezing
+0–20 → Cold
+21–35 → Normal
+36–45 → Hot
+45 → Very Hot
+
+19. Insurance Eligibility
+
+Based on age, health condition, and location.
+
+20. Check Palindrome Number
+
+Input number and check if it reads same backward.
+
+✅ ADVANCED LEVEL IF–ELSE QUESTIONS
+21. ATM Cash Withdrawal System
+
+Check:
+
+Sufficient balance
+Daily limit
+Invalid PIN
+Wrong denomination request
+
+22. Library Fine Calculator
+
+Days late:
+
+1–5 → ₹2 per day
+6–10 → ₹3 per day
+10 → ₹5 per day
+If >30 → Membership cancelled
+
+23. Online Store Discount
+
+Based on amount:
+
+1000–2999 → 10%
+3000–4999 → 20%
+5000+ → 30%
+
+24. Tax Calculation System
+
+Based on annual income slabs.
+
+25. Student Result with Pass/Fail Logic
+
+Criteria:
+
+Overall percentage >= 40
+
+No subject < 33
+
+If failed → show failed subjects
+
+26. Password Strength Checker
+
+Check:
+
+Length >= 8
+Contains number
+Contains uppercase
+Contains special character
+
+27. Hospital Bed Availability
+
+Check if bed is available:
+ICU
+General
+Emergency
+Based on condition.
+
+28. Movie Ticket Price Calculation
+
+Different prices for:
+Weekdays
+Weekends
+Morning show
+Night show
+
+29. Billing System with GST Calculation
+
+GST % applied based on item category.
+
+30. Validate Date (dd/mm/yyyy)
+
+Check:
+
+Month valid
+Day valid
+Leap year handling for Feb

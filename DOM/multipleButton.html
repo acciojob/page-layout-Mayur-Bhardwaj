@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiple button</title>
+</head>
+<body>
+  <button id="a">Btn1</button>
+  <button id="b">Btn2</button>
+  <button id="c">Btn3</button>
+  <button id="d">Btn4</button>
+  <button id="e">Btn5</button>
+  <button id="f">Btn6</button>
+<p>0</p>
+  <script>
+    let btns = document.querySelectorAll("button");
+    let para = document.querySelector("p");
+
+    for(let t of btns){
+      t.addEventListener("click", update);
+    }
+    let set = new Set();
+    function update(e){
+      console.log("Button Set", set);
+      let clickBtn = e.target;
+      if(set.includes(clickBtn)){
+        return;
+      }
+    }    
+    
+//     Write a JavaScript program to print the following diamond pattern using alphabets, where the pattern starts from 'A' and ends at 'Z', and then reverses back to 'A'. The pattern should be "n" rows in height. So take a function which accepts n as a paramter.
+
+//     A
+//    B C B
+//   C D E D C
+//  D E F G F E D
+// E F G H I H G F E
+//  D E F G F E D
+//   C D E D C
+//    B C B
+//     A
+     
+// Write a recursive function in JavaScript to print the following pattern:
+
+// 1
+// 12
+// 123
+// 1234
+// 12345
+
+// function printPattern(n, current = 1) {
+  // base condition
+//   if (current > n) return;
+
+//   // build the line using recursion-friendly logic
+//   let line = "";
+//   for (let i = 1; i <= current; i++) {
+//     line += i;
+//   }
+
+//   console.log(line);
+
+//   // recursive call
+//   printPattern(n, current + 1);
+// }
+
+// Implement a custom function myNumber() to convert a string into a number.
+
+// Restrictions
+
+
+// You are not allowed to use:
+// •	Number()
+// •	parseInt() / parseFloat()
+// •	Any arithmetic coercion tricks such as +str, str * 1, etc.
+// Requirements:
+
+
+// Your function must correctly handle:
+// •	Positive integers
+// •	Negative integers
+// •	Floating-point numbers
+// •	Strings with leading and trailing whitespace
+// Function Signature
+// function myNumber(str) {
+// // your logic here
+// }
+
+  </script>
+</body>
+</html>
