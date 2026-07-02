@@ -1,30 +1,16 @@
-
 import React from "react";
-import './../styles/App.css';
+import PageLayout from "./PageLayout";
 
- const PageLayout({ header, footer, children }) => {
-    return (
-      <div>
-    {header}
-    {footer}
-    {children}
-      </div>
-    );
-  };  
-    </div>
-  )
-const App = () => {
+function App() {
+  const header = <h1>Welcome to my website</h1>;
+
+  const footer = <p>© 2023 My Website. All rights reserved.</p>;
+
   return (
-    <div>
-        {/* Do not remove the main div */}
-     <PageLayout
-        header={<h1>Header</h1>}
-        footer={<h3>Footer</h3>}
-      >
-        <p>Main Content</p>
-      </PageLayout>
-          </div>
+    <PageLayout header={header} footer={footer}>
+      <p>This is the content of my website.</p>
+    </PageLayout>
   );
 }
 
-export default App
+export default App;
